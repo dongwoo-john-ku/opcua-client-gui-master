@@ -40,7 +40,6 @@ if __name__ == "__main__":
             logData = ([tagName, tagValue])
             logData = '{' + ", ".join(logData) +'}'
             test_logger.info(logData)
-            print(logData)
 
     finally:
         client.disconnect()
